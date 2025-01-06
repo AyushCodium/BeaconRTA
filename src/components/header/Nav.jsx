@@ -232,7 +232,7 @@ function Nav() {
                                 <Link to={'/contactus'}>Contact Us</Link>
                             </li>
                             <li>
-                                <Link to={'/blog-list'}>Career with Us</Link>
+                                <Link to={'/career-with-us'}>Career with Us</Link>
                             </li>
                             <li>
                                 <Link to={'/faq'}>FAQs</Link>

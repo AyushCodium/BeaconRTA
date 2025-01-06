@@ -43,6 +43,7 @@ import BlogGrid from '../inner/BlogGrid';
 import BlogDetails from '../inner/BlogDetails';
 import BlogDetailsDefault from '../inner/BlogDetailsDefault';
 import ContactUs from '../inner/ContactUs';
+import CareersPage from '../components/CareerPage';
 
 // onepage
 import OnepageOne from '../onepage/OnepageOne';
@@ -100,6 +101,7 @@ function RouterPage() {
                     <Route path="/team-style-5" element={<TeamFive />}></Route>
                     <Route path="/team-details" element={<TeamDetails />}></Route>
                     <Route path="/blog-list" element={<BlogList />}></Route>
+                    <Route path="/career-with-us" element={<CareersPage />}></Route>
                     <Route path="/blog-grid" element={<BlogGrid />}></Route>
                     <Route path="/blog-details" element={<BlogDetails />}></Route>
                     <Route path="/blog/:id" element={<BlogDetails />}></Route>

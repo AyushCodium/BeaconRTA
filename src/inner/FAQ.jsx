@@ -1,56 +1,19 @@
-/* eslint-disable no-unused-vars */
-import React, { useState, useEffect } from 'react';
-import HeaderOne from "../components/header/HeaderOne";
-import Breadcrumb from "./Breadcrumb";
-import { Link } from 'react-router-dom';
-import TeamTwo from "../components/team/TeamTwo";
-import FooterOne from "../components/footer/FooterOne";
-
-import Accordion from 'react-bootstrap/Accordion';
+import React from 'react';
 import HeaderSix from '../components/header/HeaderSix';
 import FooterSix from '../components/footer/FooterSix';
-import FaqOne from '../components/faq/FaqOne';
-
-
+import Breadcrumb from "./Breadcrumb";
+import Accordion from 'react-bootstrap/Accordion';
+import Chatbot from '../components/ChatBot';
+import faqData from '../data/faq-data';
 
 function Faq() {
     const breadcrumbs = [
         { label: 'Home', link: '/' },
         { label: 'FAQ' },
     ];
-    // const [isVideoOpen, setIsVideoOpen] = useState(false);
 
-    // Function to open the video overlay
-    // const openVideo = (e) => {
-    //     e.preventDefault();
-    //     setIsVideoOpen(true);
-    // };
-
-    // Function to close the video overlay
-    // const closeVideo = (e) => {
-    //     e.preventDefault();
-    //     setIsVideoOpen(false);
-    // };
-
-    // // Effect to handle the escape key for closing the video overlay
-    // useEffect(() => {
-    //     // const handleKeyUp = (e) => {
-    //     //     if (e.keyCode === 27) {
-    //     //         setIsVideoOpen(false);
-    //     //     }
-    //     // };
-
-    //     // Add event listener for keyup
-    //     document.addEventListener('keyup', handleKeyUp);
-
-    //     // Cleanup function to remove event listener on component unmount
-    //     return () => {
-    //         document.removeEventListener('keyup', handleKeyUp);
-    //     };
-    // }, []);
     return (
         <div className=''>
-
             <HeaderSix />
             <Breadcrumb title="FAQ" breadcrumbs={breadcrumbs} />
 
@@ -105,10 +68,12 @@ function Faq() {
                 </div>
             </div>
 
-            <FooterSix />
+            {/* Add Chatbot while preserving existing layout */}
+            <Chatbot faqData={faqData} />
 
+            <FooterSix />
         </div>
-    )
+    );
 }
 
-export default Faq
+export default Faq;

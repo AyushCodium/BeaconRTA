@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "image": "career-1.jpg",
+        "category": "Senior Management",
+        "title": "Vice President - RTA Operations",
+        "location": "Mumbai, India",
+        "employmentType": "Full Time",
+        "experience": "12-15 years",
+        "publishedDate": "05 Jan, 2025",
+        "description": "Lead and oversee all aspects of Registrar and Transfer Agent operations, including shareholder services, corporate actions, and regulatory compliance. Drive strategic initiatives to enhance operational efficiency and client satisfaction."
+    },
+    {
+        "id": 2,
+        "image": "career-2.jpg",
+        "category": "Middle Management",
+        "title": "Assistant Vice President - Compliance",
+        "location": "Mumbai, India",
+        "employmentType": "Full Time",
+        "experience": "8-12 years",
+        "publishedDate": "05 Jan, 2025",
+        "description": "Manage regulatory compliance programs, oversee audit processes, and ensure adherence to SEBI regulations. Develop and implement compliance policies and procedures for RTA operations."
+    },
+    {
+        "id": 3,
+        "image": "career-3.jpg",
+        "category": "Operations",
+        "title": "Senior Manager - Corporate Actions",
+        "location": "Mumbai, India",
+        "employmentType": "Full Time",
+        "experience": "6-8 years",
+        "publishedDate": "05 Jan, 2025",
+        "description": "Handle complex corporate actions including dividends, bonuses, splits, and rights issues. Coordinate with clients and regulatory bodies to ensure smooth execution of corporate events."
+    },
+    {
+        "id": 4,
+        "image": "career-4.jpg",
+        "category": "Technology",
+        "title": "Manager - IT Infrastructure",
+        "location": "Mumbai, India",
+        "employmentType": "Full Time",
+        "experience": "5-7 years",
+        "publishedDate": "05 Jan, 2025",
+        "description": "Manage and enhance IT infrastructure supporting RTA operations. Implement security measures and ensure system availability for critical shareholder services."
+    },
+    {
+        "id": 5,
+        "image": "career-5.jpg",
+        "category": "Client Services",
+        "title": "Manager - Investor Relations",
+        "location": "Mumbai, India",
+        "employmentType": "Full Time",
+        "experience": "4-6 years",
+        "publishedDate": "05 Jan, 2025",
+        "description": "Handle investor queries, manage shareholder communications, and ensure high-quality service delivery. Coordinate with internal teams to resolve complex shareholder issues."
+    },
+    {
+        "id": 6,
+        "image": "career-6.jpg",
+        "category": "Operations",
+        "title": "Associate - Share Transfer Processing",
+        "location": "Mumbai, India",
+        "employmentType": "Full Time",
+        "experience": "2-4 years",
+        "publishedDate": "05 Jan, 2025",
+        "description": "Process share transfer requests, handle transmission cases, and maintain shareholder records. Ensure accuracy and compliance in all transfer-related activities."
+    }
+]
