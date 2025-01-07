@@ -9,109 +9,7 @@ function Nav() {
                         <Link className="nav-item" to={'/'} >
                             Home
                         </Link>
-                        {/*<ul className="submenu menu-link1">
-                            <li className="menu-item">
-                                <Link className="tag" to={'#'} >
-                                    Multi Pages
-                                </Link>
-                                <ul>
-                                    <li>
-                                        <Link to={'/'}>Main Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-two'}>Consulting Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-three'}>Corporate Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-four'}>Insurance Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-five'}>Marketing Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-six'}>Home finance</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-seven'}>Human Resources</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-eight'}>IT Solutions</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-nine'}>Modern Agency</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/home-ten'}>Startup Agency</Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="menu-item">
-                                <Link className="tag" to={'#'} >
-                                    One Page
-                                </Link>
-                                <ul>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-one'}>Main Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-two'}>Consulting Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-three'}>Corporate Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-four'}>Insurance Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-five'}>Marketing Home</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-six'}>Home finance</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-seven'}>Human Resources</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-eight'}>IT Solutions</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-nine'}>Modern Agency</Link>
-                                    </li>
-                                    <li>
-                                        <Link target='_blank' to={'/onepage-ten'}>Startup Agency</Link>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>*/}
                     </li>
-                    {/*<li className="has-droupdown">
-                        <Link className="nav-link" to={'#'}>
-                            Services
-                        </Link>
-                        <ul className="submenu menu-link3">
-                            <li className="sub-droupdown">
-                                <Link className="sub-menu-link" to={'#'}>
-                                    Our Service
-                                </Link>
-                                <ul className="submenu third-lvl">
-                                    <li>
-                                        <Link to={'/our-service'}>Service 1</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/service-2'}>Service 2</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/service-3'}>Service 3</Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <Link to={'/service-details'}>Service Details</Link>
-                            </li>
-                        </ul>
-                    </li>*/}
                     <li className="has-droupdown">
                         <Link className="nav-link" to={'#'}>
                             About Us
@@ -139,25 +37,25 @@ function Nav() {
                                 </Link>
                                 <ul>
                                     <li>
-                                        <Link to={'/appoinment'}>Public Issues</Link>
+                                        <Link to={'/'}>Public Issues</Link>
                                     </li>
                                     <li>
-                                        <Link to={'/about-us'}>Right Issues</Link>
+                                        <Link to={'/'}>Right Issues</Link>
                                     </li>
                                     <li>
-                                        <Link to={'/pricing-plane'}>Debt Issues</Link>
+                                        <Link to={'/'}>Debt Issues</Link>
                                     </li>
                                     <li>
-                                        <Link to={'/our-service'}>Alternative Investment Funds</Link>
+                                        <Link to={'/'}>Alternative Investment Funds</Link>
                                     </li>
                                     <li>
-                                        <Link to={'/testimonial-style-1'}>Securitization Units</Link>
+                                        <Link to={'/'}>Securitization Units</Link>
                                     </li>
                                     <li>
-                                        <Link to={'/404'}>Mutual Funds</Link>
+                                        <Link to={'/'}>Mutual Funds</Link>
                                     </li>
                                     <li>
-                                        <Link to={'/404'}>KYC & Due Diligence</Link>
+                                        <Link to={'/'}>KYC & Due Diligence</Link>
                                     </li>
                                 </ul>
                             </li>
@@ -167,60 +65,35 @@ function Nav() {
                                 </Link>
                                 <ul>
                                     <li>
-                                        <Link to={'/project'}>Issue Management</Link>
+                                        <Link to={'/'}>Issue Management</Link>
                                     </li>
                                     <li>
-                                        <Link to={'/portfolio-style-2'}>
+                                        <Link to={'/'}>
                                             Dematerialization
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to={'/portfolio-style-3'}>
+                                        <Link to={'/'}>
                                             Investor Meet
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to={'/portfolio-style-4'}>
+                                        <Link to={'/'}>
                                             DSC
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to={'/portfolio-style-5'}>
+                                        <Link to={'/'}>
                                             Tripartite Agreement
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to={'/project-details'}>
+                                        <Link to={'/'}>
                                             Data Management
                                         </Link>
                                     </li>
                                 </ul>
                             </li>
-                            {/*<li className="menu-item">
-                                <Link className="tag" to={'#'}>
-                                    Our Teams
-                                </Link>
-                                <ul>
-                                    <li>
-                                        <Link to={'/team'}>Team Style 1</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/team-style-2'}>Team Style 2</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/team-style-3'}>Team Style 3</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/team-style-4'}>Team Style 4</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/team-style-5'}>Team Style 5</Link>
-                                    </li>
-                                    <li>
-                                        <Link to={'/team-details'}>Team Details</Link>
-                                    </li>
-                                </ul>
-                            </li>*/}
                         </ul>
                     </li>
                     <li className="has-droupdown">
@@ -239,11 +112,6 @@ function Nav() {
                             </li>
                         </ul>
                     </li>
-                    {/*<li>
-                        <Link className="nav-item" to={'/contactus'}>
-                            Contact
-                        </Link>
-                    </li>*/}
                 </ul>
             </nav>
         </div>
