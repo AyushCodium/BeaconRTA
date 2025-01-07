@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import HeaderOne from "../components/header/HeaderOne";
+import HeaderSix from "../components/header/HeaderSix";
 import { Link } from 'react-router-dom';
 import FooterOne from "../components/footer/FooterOne";
 import Breadcrumb from "../inner/Breadcrumb";
@@ -21,7 +21,7 @@ function CareersPage() {
 
     return (
         <div>
-            <HeaderOne />
+            <HeaderSix />
             <Breadcrumb title="Career Opportunities" breadcrumbs={breadcrumbs} />
 
             <div className="career-section rts-section-gap">
