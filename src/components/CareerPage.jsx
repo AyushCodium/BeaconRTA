@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import HeaderSix from "../components/header/HeaderSix";
 import { Link } from 'react-router-dom';
-import FooterOne from "../components/footer/FooterOne";
+import FooterSix from "../components/footer/FooterSix";
 import Breadcrumb from "../inner/Breadcrumb";
 import careers from '../data/careers.json';
 import { Briefcase, MapPin, Clock, Calendar, ChevronRight } from 'lucide-react';
@@ -207,7 +207,7 @@ function CareersPage() {
                 }
             `}</style>
 
-            <FooterOne />
+            <FooterSix />
         </div>
     );
 }
