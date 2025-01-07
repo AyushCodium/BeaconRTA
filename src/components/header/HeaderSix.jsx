@@ -1,16 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Nav from './Nav';
 import { Link } from 'react-router-dom';
-import SideMenu from './SideMenu';
 
 function HeaderSix() {
-
-    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
-    const toggleSidebar = () => {
-        setIsSidebarOpen(!isSidebarOpen);
-    };
     const [isSticky, setIsSticky] = useState(false);
+    
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 150) {
@@ -22,17 +16,14 @@ function HeaderSix() {
 
         window.addEventListener('scroll', handleScroll);
 
-        // Clean up the event listener on component unmount
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
-
     return (
         <div>
-            {/* start header area */}
-            <header className={`header--sticky header-one header-four header-five header-six seven  ${isSticky ? 'sticky' : ''}`}>
+            <header className={`header--sticky header-one header-four header-five header-six seven ${isSticky ? 'sticky' : ''}`}>
                 <div className="header-top header-top-one header-top-four header-top-five header-top-six seven">
                     <div className="container">
                         <div className="row">
@@ -70,7 +61,7 @@ function HeaderSix() {
                                     </Link>
                                 </div>
                             </div>
-                            <div className=" col-xl-9 col-lg-8 col-md-8 col-sm-8 col-6">
+                            <div className="col-xl-9 col-lg-8 col-md-8 col-sm-8 col-6">
                                 <div className="main-header main-header-four main-header-five main-header-six seven">
                                     <Nav />
                                     <div className="button-area">
@@ -100,21 +91,6 @@ function HeaderSix() {
                                         >
                                             Book a Meeting
                                         </Link>
-                                        {/*<button
-                                            id="menu-btn" onClick={toggleSidebar}
-                                            className="menu rts-btn btn-primary-alta btn-primary-alta-four ml--20 ml_sm--5"
-                                        >
-                                            <img
-                                                className="menu-dark"
-                                                src="assets/images/icon/menu.png"
-                                                alt="Menu-icon"
-                                            />
-                                            <img
-                                                className="menu-light"
-                                                src="assets/images/icon/menu-light.png"
-                                                alt="Menu-icon"
-                                            />
-                                        </button>*/}
                                     </div>
                                 </div>
                             </div>
@@ -122,9 +98,31 @@ function HeaderSix() {
                     </div>
                 </div>
             </header>
-            {/* End header area */}
+
+            <style>{`
+                /* Adjust header heights while preserving existing classes */
+                .header-top {
+                    padding: 5px 0 !important;
+                }
+
+                .header-main-one .thumbnail img {
+                    max-height: 40px;
+                    width: auto;
+                }
+
+                .main-header .button-area .rts-btn {
+                    padding: 8px 15px !important;
+                }
+
+                /* Maintain responsive behavior */
+                @media (max-width: 768px) {
+                    .header-main-one {
+                        padding: 8px 0 !important;
+                    }
+                }
+            `}</style>
         </div>
-    )
+    );
 }
 
-export default HeaderSix
+export default HeaderSix;
