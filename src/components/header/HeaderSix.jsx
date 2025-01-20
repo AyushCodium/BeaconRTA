@@ -56,9 +56,9 @@ function HeaderSix() {
                         <div className="row align-items-center">
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-6">
                                 <div className="thumbnail">
-                                    <Link href="index.html">
+                                    {/*<Link href="index.html">
                                         <img src="assets/beacon.png" width={180} alt="finbiz-logo" />
-                                    </Link>
+                                    </Link>*/}
                                 </div>
                             </div>
                             <div className="col-xl-9 col-lg-8 col-md-8 col-sm-8 col-6">
