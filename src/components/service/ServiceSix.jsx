@@ -26,7 +26,7 @@ function    ServiceSix() {
                                     <p className="disc" style={{height: '16rem'}}>
                                     A gateway for investors to check application status in Public/Rights/Bond Issues, and access the Download Manager.
                                     </p>
-                                    <Link to={'/service-details'} className="rts-btn btn-primary">
+                                    <Link to={'/'} className="rts-btn btn-primary">
                                         Read More
                                     </Link>
                                 </div>
@@ -44,7 +44,7 @@ function    ServiceSix() {
                                     <p className="disc" style={{height: '16rem'}}>
                                     A dedicated self-service section for clients to manage InSta, Digital Signatures, and Download Manager.
                                     </p>
-                                    <Link to={'/service-details'} className="rts-btn btn-primary">
+                                    <Link to={'/'} className="rts-btn btn-primary">
                                         Read More
                                     </Link>
                                 </div>
@@ -62,7 +62,7 @@ function    ServiceSix() {
                                     <p className="disc" style={{height: '16rem'}}>
                                     Explore our esteemed clients and stay updated with the latest information.
                                     </p>
-                                    <Link to={'/service-details'} className="rts-btn btn-primary">
+                                    <Link to={'/'} className="rts-btn btn-primary">
                                         Read More
                                     </Link>
                                 </div>
@@ -80,7 +80,7 @@ function    ServiceSix() {
                                     <p className="disc" style={{height: '16rem'}}>
                                     Over three decades of strong client relationships in registry services has led to demand for expanded offerings.
                                     </p>
-                                    <Link to={'/service-details'} className="rts-btn btn-primary">
+                                    <Link to={'/'} className="rts-btn btn-primary">
                                         Read More
                                     </Link>
                                 </div>
