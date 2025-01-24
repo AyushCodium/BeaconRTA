@@ -1,22 +1,22 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
-import HeaderOne from "../components/header/HeaderOne";
-import Breadcrumb from "./Breadcrumb";
+import HeaderOne from "../../components/header/HeaderOne";
+import Breadcrumb from "../../inner/Breadcrumb";
 import { Link } from 'react-router-dom';
-import TeamTwo from "../components/team/TeamTwo";
-import FooterOne from "../components/footer/FooterOne";
+import TeamTwo from "../../components/team/TeamTwo";
+import FooterOne from "../../components/footer/FooterOne";
 
 import Accordion from 'react-bootstrap/Accordion';
-import HeaderSix from '../components/header/HeaderSix';
-import FooterSix from '../components/footer/FooterSix';
+import HeaderSix from '../../components/header/HeaderSix';
+import FooterSix from '../../components/footer/FooterSix';
 
 
 
-function OurService() {
+function AboutInfra() {
     const breadcrumbs = [
         { label: 'Home', link: '/' },
         { label: 'About Us' },
-        { label: 'Background' }
+        { label: 'Infrastructure' },
     ];
     // const [isVideoOpen, setIsVideoOpen] = useState(false);
 
@@ -52,7 +52,7 @@ function OurService() {
         <div className=''>
 
             <HeaderSix />
-            <Breadcrumb title="Background" breadcrumbs={breadcrumbs} />
+            <Breadcrumb title="Infrastructure" breadcrumbs={breadcrumbs} />
             {/* rts about us section start */}
             <div className="rts-about-area rts-section-gap">
                 <div className="container">
@@ -100,7 +100,7 @@ function OurService() {
                                 <div className="title-area">
                                     <span>ABOUT BEACON RTA</span>
                                     <h2 className="title">
-                                        Background
+                                        Infrastructure
                                     </h2>
                                 </div>
                                 {/* inner start */}
@@ -147,6 +147,101 @@ function OurService() {
             {/* rts services area start */}
             <div className="rts-service-area rts-section-gapBottom">
                 <div className="container-fluid service-main about-service-width-controler">
+                    {/*<div className="background-service service-three row">
+                        <div className="row g-5">
+                            <div className="rts-title-area service-four text-center pt--40 pt_md--0 mt_sm--0 mt_md--0">
+                                <p className="pre-title">Our Services</p>
+                                <h2 className="title">What We Provide</h2>
+                            </div>
+                            <div className="col-xl-4 col-md-6 col-sm-12 col-12 pt--15 mb--80 mb_md--40 mb_sm--30">
+                                <div className="service-one-inner-four">
+                                    <div className="big-thumbnail-area">
+                                        <Link to={'#'} className="thumbnail">
+                                            <img
+                                                src="assets/images/service/07.jpg"
+                                                alt="Business-service"
+                                            />
+                                        </Link>
+                                        <div className="content">
+                                            <img
+                                                src="assets/images/service/icon/13.svg"
+                                                alt="Business-icon"
+                                            />
+                                            <h5 className="title">Business Consultancy</h5>
+                                            <p className="disc">
+                                                Aenean augue venenatis est porttitor fames aptent lobortis
+                                                nam potenti
+                                            </p>
+                                        </div>
+                                        <Link href="service-details.html" className="over_link" />
+                                    </div>
+                                    <Link href="service-details.html" className="rts-btn btn-primary">
+                                        {" "}
+                                        Read More
+                                        <i className="fal fa-arrow-right" />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-md-6 col-sm-12 col-12 pt--15 mb--80 mb_md--40 mb_sm--30">
+                                <div className="service-one-inner-four">
+                                    <div className="big-thumbnail-area">
+                                        <Link to={'#'} className="thumbnail">
+                                            <img
+                                                src="assets/images/service/08.jpg"
+                                                alt="Business-service"
+                                            />
+                                        </Link>
+                                        <div className="content">
+                                            <img
+                                                src="assets/images/service/icon/14.svg"
+                                                alt="Business-icon"
+                                            />
+                                            <h5 className="title">Business Appoinment</h5>
+                                            <p className="disc">
+                                                Aenean augue venenatis est porttitor fames aptent lobortis
+                                                nam potenti
+                                            </p>
+                                        </div>
+                                        <Link href="service-details.html" className="over_link" />
+                                    </div>
+                                    <Link href="service-details.html" className="rts-btn btn-primary">
+                                        {" "}
+                                        Read More
+                                        <i className="fal fa-arrow-right" />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-md-6 col-sm-12 col-12 pt--15 mb--80">
+                                <div className="service-one-inner-four">
+                                    <div className="big-thumbnail-area">
+                                        <Link to={'#'} className="thumbnail">
+                                            <img
+                                                src="assets/images/service/09.jpg"
+                                                alt="Business-service"
+                                            />
+                                        </Link>
+                                        <div className="content">
+                                            <img
+                                                src="assets/images/service/icon/15.svg"
+                                                alt="Business-icon"
+                                            />
+                                            <h5 className="title">Consultancy Foundation</h5>
+                                            <p className="disc">
+                                                Aenean augue venenatis est porttitor fames aptent lobortis
+                                                nam potenti
+                                            </p>
+                                        </div>
+                                        <Link href="service-details.html" className="over_link" />
+                                    </div>
+                                    <Link href="service-details.html" className="rts-btn btn-primary">
+                                        {" "}
+                                        Read More
+                                        <i className="fal fa-arrow-right" />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>*/}
                     <div className="row">
                         <div className="cta-one-bg col-12">
                             <div className="cta-one-inner">
@@ -173,4 +268,4 @@ function OurService() {
     )
 }
 
-export default OurService
+export default AboutInfra

@@ -1,14 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
-import HeaderOne from "../components/header/HeaderOne";
-import Breadcrumb from "./Breadcrumb";
+import HeaderOne from "../../components/header/HeaderOne";
+import Breadcrumb from "../../inner/Breadcrumb";
 import { Link } from 'react-router-dom';
-import TeamTwo from "../components/team/TeamTwo";
-import FooterOne from "../components/footer/FooterOne";
+import TeamTwo from "../../components/team/TeamTwo";
+import FooterOne from "../../components/footer/FooterOne";
 
 import Accordion from 'react-bootstrap/Accordion';
-import HeaderSix from '../components/header/HeaderSix';
-import FooterSix from '../components/footer/FooterSix';
+import HeaderSix from '../../components/header/HeaderSix';
+import FooterSix from '../../components/footer/FooterSix';
 
 
 
